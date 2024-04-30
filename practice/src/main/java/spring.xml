@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+        
+        
+        <bean id ="hlo" class = "com.practice.Employee">
+        <property name ="Employeeid" value ="34"/>
+        <property name ="Name" value ="Rohan"/>
+        <property name ="Salary" value ="40000"/>
+        </bean>
+
+
+<!--                ///////////////////////////////////////////////// -->
+<!--         <bean id="bike" class= "ctsspring.practice.Bike">  -->
+<!--         <property name="tyre" value="Ceat"></property> -->
+<!--         </bean>  -->
+      
+<!--         <bean id="tyre" class= "ctsspring.practice.tyre"> -->
+        <!-- TO INITIATE GETTERS AND SETTERS -->
+<!--         <property name="brand" value="Ceat"></property>  -->
+<!--         <property name="company" value="TATA"></property>  -->
+<!--         </bean> -->
+        
+        <!-- TO INITIATE CONSTRUCTOR -->
+        <!-- <constructor-arg value="MRF"></constructor-arg>  -->
+        <!--<constructor-arg value="Hyundai"></constructor-arg>   -->
+        
+<!--         <bean id="tyre" class="ctsspring.practice.tyre" > -->
+<!--         <constructor-arg  value = "tata"></constructor-arg> -->
+<!--         <constructor-arg  value = "tatawer"></constructor-arg> -->
+<!--  <property name="brand" value="Ceat"></property>  -->
+<!--         <property name="company" value="TATA"></property>         -->
+<!--         </bean> -->
+<!--             //////////////////////////////////////////////////////// -->
+
+</beans>
